@@ -24,19 +24,15 @@ body .img {
   width: 100%;
   height: 100%;
   background: url(../images/html.png);
-  /* filter: blur(8px); */
+  filter: blur(5px);
   background-size: cover;
   background-position: center;
   position: absolute;
-  z-index: -100;
   width: 100%;
   z-index: -1;
-
-  mask-image: linear-gradient(
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0)
-  );
+  /*mask-image: linear-gradient(    rgba(0, 0, 0, 1),    rgba(0, 0, 0, 0.5),    rgba(0, 0, 0, 0)  );
+  */
+  -webkit-filter: blur(5px);
 }
 
 .navbar {
@@ -186,6 +182,10 @@ hr {
 /* Tablets */
 
 @media (min-width: 481px) and (max-width: 768px) {
+  body .img {
+    width: 100%;
+    height: 80%;
+  }
   .nav-item a {
     display: flex;
     flex-wrap: wrap;
@@ -210,11 +210,18 @@ hr {
   .hero-text h2 {
     font-size: 1.2rem;
   }
+  .about{
+  }
 }
 
 /* Mobile Phone */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  body .img {
+    width: 100%;
+    height: 80%;
+  }
+  
   .hero {
     height: 70vh;
   }
@@ -234,5 +241,7 @@ hr {
   }
   .hero-text h2 {
     font-size: 1rem;
+  }
+  .about{
   }
 }
