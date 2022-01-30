@@ -215,6 +215,11 @@ hr {
 /* Mobile Phone */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  
+  body .img {
+    width: 100%;
+    height: 60%;
+  }
   .hero{
     height: 70vh;
   }
