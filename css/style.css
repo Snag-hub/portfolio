@@ -190,11 +190,11 @@ hr {
     display: flex;
     flex-wrap: wrap;
   }
-  .hero{
+  .hero {
     height: 70vh;
   }
-  
-  .hero-text{
+
+  .hero-text {
     top: 45%;
     left: 50%;
     transform: translate(-55%, -50%);
@@ -202,8 +202,8 @@ hr {
     -moz-transform: translate(-55%, -50%);
     -ms-transform: translate(-55%, -50%);
     -o-transform: translate(-55%, -50%);
-}
-  
+  }
+
   .hero-text h1 {
     font-size: 2rem;
   }
@@ -215,16 +215,11 @@ hr {
 /* Mobile Phone */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
-  body .img {
-    width: 100%;
-    height: 60%;
-  }
-  .hero{
+  .hero {
     height: 70vh;
   }
-  
-  .hero-text{
+
+  .hero-text {
     top: 45%;
     left: 50%;
     transform: translate(-55%, -50%);
@@ -232,8 +227,8 @@ hr {
     -moz-transform: translate(-55%, -50%);
     -ms-transform: translate(-55%, -50%);
     -o-transform: translate(-55%, -50%);
-}
-  
+  }
+
   .hero-text h1 {
     font-size: 1.8rem;
   }
