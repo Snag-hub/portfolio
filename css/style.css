@@ -199,4 +199,7 @@ hr {
   .hero-text h1 {
     font-size: 2.5rem;
   }
+  .hero-text h2 {
+    font-size: 2rem;
+  }
 }
