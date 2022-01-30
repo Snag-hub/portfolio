@@ -196,7 +196,7 @@ hr {
 /* Mobile Phone */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .hero h1 {
+  .hero-text h1 {
     font-size: 2.5rem;
   }
 }
