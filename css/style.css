@@ -219,8 +219,44 @@ body .img {
   margin-bottom: 10px;
   margin-left: 15px;
 }
+.education{
+  max-width: 100%;
+  width: 80%;
+  height: 60vh;
+  margin: 0 auto;
+  margin-bottom: 15px;
 
-
+}
+.education h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+.educationMain{
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+}
+.education-item{
+  margin: 20px 0;
+}
+.education-item h2{
+  font-size: 1.4rem;
+  font-weight: bold;
+  
+}
+.education-item h3{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(89, 89, 89);
+}
+.education-item h4{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(89, 89, 89);
+}
 
 hr {
   width: 50%;
@@ -239,16 +275,12 @@ hr {
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .nav-item a {
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-    margin-left: 5px;
-    border-radius: 18px;
-    -webkit-border-radius: 18px;
-    -moz-border-radius: 18px;
-    -ms-border-radius: 18px;
-    -o-border-radius: 18px;
-    font-size: 14px;
+  }
+  .hero-text h1 {
+    font-size: 2.8rem;
+  }
+  .hero-text h2 {
+    font-size: 2.2rem;
   }
 }
 
