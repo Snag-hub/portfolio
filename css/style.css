@@ -181,7 +181,7 @@ body .img {
 .skills{
   max-width: 100%;
   width: 80%;
-  height: 60vh;
+  height: auto;
   margin: 0 auto;
   margin-bottom: 15px;
 }
