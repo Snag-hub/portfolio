@@ -329,6 +329,9 @@ hr {
   .contentSkill{
     flex-direction: column;
   }
+  .educationMain{
+    flex-direction: column;
+  }
 }
 
 /* Mobile Phone */
@@ -371,6 +374,9 @@ hr {
 
   } 
   .contentSkill{
+    flex-direction: column;
+  }
+  .educationMain{
     flex-direction: column;
   }
 } 
