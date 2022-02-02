@@ -266,6 +266,44 @@ body .img {
   color: rgb(89, 89, 89);
 }
 
+.experience{
+  max-width: 100%;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.experience h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+.experienceMain{
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+}
+.experience-item{
+  margin: 20px 0;
+}
+.experience-item h2{
+  font-size: 1.6rem;
+  font-weight: bold;
+  
+}
+.experience-item h3{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(89, 89, 89);
+}
+.experience-item h4{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(89, 89, 89);
+}
+
 hr {
   width: 50%;
   height: 5px;
