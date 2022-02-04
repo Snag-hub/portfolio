@@ -498,6 +498,12 @@ hr {
   .educationMain{
     flex-direction: column;
   }
+  .contact .container{
+    flex-direction: column;
+  }
+  .contactDetails{
+    width: 100%;
+  }
 }
 
 /* Mobile Phone */
@@ -550,5 +556,12 @@ hr {
   }
   .educationMain{
     flex-direction: column;
+  }
+  .contact .container{
+    flex-direction: column;
+    
+  }
+  .contactDetails{
+    width: 100%;
   }
 } 
