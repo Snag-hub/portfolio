@@ -12,6 +12,16 @@ a {
 li {
   list-style: none;
 }
+input, textarea {
+  outline: none;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -274,7 +284,7 @@ body .img {
   margin-bottom: 15px;
 }
 .experience h1{
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   font-weight: bold;
   margin-bottom: 40px;
   text-align: center;
@@ -303,6 +313,110 @@ body .img {
   font-weight: bold;
   color: rgb(89, 89, 89);
 }
+.projects{
+  max-width: 100%;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.projects h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+.projectsMain{
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+}
+.projects-item{
+  margin: 20px 0;
+}
+.projects-item h2{
+  font-size: 1.6rem;
+  font-weight: bold;
+  
+}
+.projects-item h3{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(89, 89, 89);
+}
+.projects-item h4{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(89, 89, 89);
+}
+.contact{
+  max-width: 100%;
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.contact h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+}
+.phone, .email, .address{
+  display: flex;
+  align-items: center;
+}
+.phone i, .email i, .address i{
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+}
+.phone h3, .email h3, .address h3{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-left: 15px;
+  padding: 10px 20px;
+}
+.contactDetails{
+  padding: 20px;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(250, 161, 161);
+}
+.contact-form{
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  flex-direction: column;
+}
+.contact-form input, textarea{
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+.contact-form button{
+  width: 30%;
+  margin: 0 auto;
+  height: 100%;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 
 hr {
   width: 50%;
