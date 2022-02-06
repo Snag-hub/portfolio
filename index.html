@@ -245,7 +245,7 @@
         </div>
       </div>
       <div class="contactForm">
-        <form action="https://formspree.io/f/xayveaqy" method="post">
+        <form action="https://formspree.io/f/xayveaqy" method="post" target="_blank">
           <h2>Send Message</h2>
           <div class="inputBox">
             <input type="text " name="Name" required="required">
@@ -267,9 +267,36 @@
     </div>
   </section>
 
-
-
   <hr>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-item">
+        <div class="social-media">
+          <h2>Social Media</h2>
+          <a target="_blank" href="https://www.linkedin.com/in/syednadeemhussain/"><i class="fab fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.instagram.com/anonymous.programmer/"><i class="fa fa-instagram"></i></a>
+          <a target="_blank" href="https://github.com/Snag-hub"><i class="fab fa-github"></i></a>
+          <a target="_blank" href="https://twitter.com/therealgeelani"><i class="fa fa-twitter"></i></a>
+          <a target="_blank" href="https://www.youtube.com/channel/UChTEvrP_8_0MjAeTnq3vbzw"><i
+              class="fa fa-youtube"></i></a>
+        </div>
+        <div class="developer">
+          <h2>Developed by</h2>
+          <p>&copy Snag-hub 2022 - <script>document.write( new Date().getFullYear() );</script> </p>
+        </div>
+      </div>
+  </footer>
+  <script>
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    window.onscroll = function () {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 </body>
 
 </html>
