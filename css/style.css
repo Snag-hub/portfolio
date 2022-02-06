@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -13,13 +14,12 @@ li {
   list-style: none;
 }
 
-
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   background: #ffffff9f;
   margin: 0 auto;
-  scroll-behavior: smooth;
+  
 }
 body .img {
   width: 100%;
@@ -92,10 +92,28 @@ body .img {
   background-color: white;
   color: black;
 }
-
-.hamburger {
-  display: none;
+.backToTop{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25),
+    inset 1px 1px 3px rgba(0, 0, 0, 0.35),
+    inset -1px -1px 3px rgba(0, 0, 0, 0.5);
+  font-size: clamp(0.7em, 1vw, 3.2em);
+  outline: none;
+  display: flex;
 }
+.backToTop a{
+  color: white;
+  font-weight: bold;
+}
+
+
+
 
 /* Content */
 .hero {
@@ -134,45 +152,42 @@ body .img {
   -ms-border-radius: 0 0 40px 0;
   -o-border-radius: 0 0 40px 0;
 }
-.socials{
+.socials {
   margin-top: 20px;
 }
-.socials a{
+.socials a {
   color: #fff;
   font-size: 2rem;
   margin-right: 10px;
-  
 }
-.about{
+.about {
   width: 100%;
   height: auto;
   margin-bottom: 30px;
 }
-.about h1{
+.about h1 {
   font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 40px;
   text-align: center;
   margin-top: 30px;
-  
-  
 }
-.aboutMe{
+.aboutMe {
   max-width: 100%;
   width: 80%;
   margin: 0 auto;
 }
-.aboutMe p{
+.aboutMe p {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
   font-size: 1.5rem;
 }
-.aboutMe span{
+.aboutMe span {
   font-weight: bold;
   font-style: italic;
 }
-.aboutMe button{
+.aboutMe button {
   padding: 10px 20px;
   background-color: black;
   color: white;
@@ -182,166 +197,162 @@ body .img {
     inset -1px -1px 3px rgba(0, 0, 0, 0.5);
   margin-top: 20px;
   margin-left: 45%;
-
 }
-.aboutMe button:hover{
+.aboutMe button:hover {
   background-color: white;
   color: black;
 }
-.skills{
+.skills {
   max-width: 100%;
   width: 80%;
   height: auto;
   margin: 0 auto;
   margin-bottom: 15px;
 }
-.skills h1{
+.skills h1 {
   font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 40px;
   text-align: center;
   margin-top: 30px;
 }
-.contentSkill{
+.contentSkill {
   display: flex;
   justify-content: space-around;
   align-items: top;
 }
-.skills-container h2{
+.skills-container h2 {
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
   border-bottom: 5px solid #000;
 }
-.skill-icon{
+.skill-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.skill-item i{
+.skill-item i {
   font-size: 2rem;
   color: rgb(250, 161, 161);
 }
-.skill-item h3{
+.skill-item h3 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
   margin-left: 15px;
 }
-.education{
+.education {
   max-width: 100%;
   width: 80%;
   height: auto;
   margin: 0 auto;
   margin-bottom: 15px;
 }
-.education h1{
+.education h1 {
   font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 40px;
   text-align: center;
   margin-top: 30px;
 }
-.educationMain{
+.educationMain {
   display: flex;
   justify-content: space-around;
   align-items: top;
 }
-.education-item{
+.education-item {
   margin: 20px 0;
 }
-.education-item h2{
+.education-item h2 {
   font-size: 1.4rem;
   font-weight: bold;
-  
 }
-.education-item h3{
+.education-item h3 {
   font-size: 1rem;
   font-weight: bold;
   color: rgb(89, 89, 89);
 }
-.education-item h4{
+.education-item h4 {
   font-size: 1rem;
   font-weight: bold;
   color: rgb(89, 89, 89);
 }
 
-.experience{
+.experience {
   max-width: 100%;
   width: 80%;
   height: auto;
   margin: 0 auto;
   margin-bottom: 15px;
 }
-.experience h1{
+.experience h1 {
   font-size: 3.2rem;
   font-weight: bold;
   margin-bottom: 40px;
   text-align: center;
   margin-top: 30px;
 }
-.experienceMain{
+.experienceMain {
   display: flex;
   justify-content: space-around;
   align-items: top;
 }
-.experience-item{
+.experience-item {
   margin: 20px 0;
 }
-.experience-item h2{
+.experience-item h2 {
   font-size: 1.6rem;
   font-weight: bold;
-  
 }
-.experience-item h3{
+.experience-item h3 {
   font-size: 1rem;
   font-weight: bold;
   color: rgb(89, 89, 89);
 }
-.experience-item h4{
+.experience-item h4 {
   font-size: 1rem;
   font-weight: bold;
   color: rgb(89, 89, 89);
 }
-.projects{
+.projects {
   max-width: 100%;
   width: 80%;
   height: auto;
   margin: 0 auto;
   margin-bottom: 15px;
 }
-.projects h1{
+.projects h1 {
   font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 40px;
   text-align: center;
   margin-top: 30px;
 }
-.projectsMain{
+.projectsMain {
   display: flex;
   justify-content: space-around;
   align-items: top;
 }
-.projects-item{
+.projects-item {
   margin: 20px 0;
 }
-.projects-item h2{
+.projects-item h2 {
   font-size: 1.6rem;
   font-weight: bold;
-  
 }
-.projects-item h3{
+.projects-item h3 {
   font-size: 1rem;
   font-weight: bold;
   color: rgb(89, 89, 89);
 }
-.projects-item h4{
+.projects-item h4 {
   font-size: 1rem;
   font-weight: bold;
   color: rgb(89, 89, 89);
 }
-.projects input[type="submit"]{
+.projects input[type="submit"] {
   width: 100%;
   background-color: #00bcd4;
   color: white;
@@ -351,15 +362,15 @@ body .img {
   font-size: 18px;
   margin-top: 20px;
 }
-.contact{
+.contact {
   min-height: 100vh;
   padding: 50px 100px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.contact .content{
+.contact .content {
   max-width: 100%;
   width: 80%;
   height: auto;
@@ -367,35 +378,37 @@ body .img {
   margin-bottom: 15px;
   text-align: justify;
 }
-.contact .content h2{
+.contact .content h2 {
   font-size: 3.5rem;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.contact .content p{
+.contact .content p {
   font-weight: 300;
+  max-width: 100%;
+  font-size: 1rem;
+  text-align: center;
 }
-.contact .container{
+.contact .container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
-.contact .container .contactInfo{
-
+.contact .container .contactInfo {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
-.contact .container .contactInfo .box{
+.contact .container .contactInfo .box {
   position: relative;
   padding: 20px 0;
   display: flex;
 }
-.contact .container .contactInfo .box .icon{
+.contact .container .contactInfo .box .icon {
   min-width: 60px;
   height: 60px;
   display: flex;
@@ -406,35 +419,34 @@ body .img {
   background-color: rgb(0, 0, 0);
   border-radius: 50%;
 }
-.contact .container .contactInfo .box .text{
+.contact .container .contactInfo .box .text {
   display: flex;
   margin-left: 20px;
   font-size: 20px;
   flex-direction: column;
   font-weight: 300;
 }
-.contact .container .contactInfo .box .text h3{
+.contact .container .contactInfo .box .text h3 {
   font-weight: 500;
   color: #00bcd4;
 }
 
-.contact .container .contactForm{
+.contact .container .contactForm {
   width: 40%;
   padding: 40px;
   background-color: rgb(250, 161, 161);
-   
 }
-.contact .container .contactForm h2{
-  font-size:30px;
+.contact .container .contactForm h2 {
+  font-size: 30px;
   font-weight: 500;
 }
-.contact .container .contactForm .inputBox{
+.contact .container .contactForm .inputBox {
   position: relative;
   width: 100%;
   margin-top: 10px;
 }
-.contact .container .contactForm .inputBox input, 
-.contact .container .contactForm .inputBox textarea{
+.contact .container .contactForm .inputBox input,
+.contact .container .contactForm .inputBox textarea {
   width: 100%;
   padding: 5px 0;
   font-size: 16px;
@@ -445,7 +457,7 @@ body .img {
   outline: none;
   resize: none;
 }
-.contact .container .contactForm .inputBox span{
+.contact .container .contactForm .inputBox span {
   position: absolute;
   left: 0;
   padding: 5px 0;
@@ -457,7 +469,7 @@ body .img {
 }
 .contact .container .contactForm .inputBox input:focus ~ span,
 .contact .container .contactForm .inputBox textarea:focus ~ span,
-.contact .container .contactForm .inputBox input:valid ~ span{
+.contact .container .contactForm .inputBox input:valid ~ span {
   color: #00bcd4;
   font-size: 12px;
   transform: translateY(-20px);
@@ -467,7 +479,7 @@ body .img {
   -o-transform: translateY(-20px);
 }
 
-.contact .container .contactForm .inputBox input[type="submit"]{
+.contact .container .contactForm .inputBox input[type="submit"] {
   width: 100%;
   background-color: #00bcd4;
   color: white;
@@ -501,7 +513,7 @@ hr {
   .hero-text h2 {
     font-size: 2.2rem;
   }
-  .contact{
+  .contact {
     padding: 50px;
   }
 }
@@ -536,40 +548,50 @@ hr {
   }
   .hero-text h2 {
     font-size: 1.2rem;
-  } 
-  .socials{
+  }
+  .socials {
     margin-top: 10px;
   }
-  .socials a{
-  font-size: 1.7rem;
+  .socials a {
+    font-size: 1.7rem;
   }
-  .about h1{
+  .about h1 {
     font-size: 2.5rem;
   }
-  .aboutMe p{
+  .aboutMe p {
     text-align: justify;
     font-size: 1.2rem;
   }
-  .aboutMe button{
+  .aboutMe button {
     margin-left: 0;
-
   }
-  .contentSkill{
+  .contentSkill {
     flex-direction: column;
   }
-  .educationMain{
+  .educationMain {
     flex-direction: column;
   }
-  .contact{
-    padding : 0px;
+  .contact {
+    padding: 0px;
   }
-  .contact .container{
+  .contact .content h2 {
+    font-size: 2.5rem;
+  }
+  .contact .container {
     flex-direction: column;
     width: 100%;
-
   }
-  .contact .container .contactInfo{
+  .contact .container .contactInfo {
     margin-bottom: 40px;
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contact .container .contactForm {
+    margin-bottom: 40px;
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
@@ -580,7 +602,7 @@ hr {
     width: 100%;
     height: 80%;
   }
-  
+
   .hero {
     height: 70vh;
   }
@@ -601,50 +623,48 @@ hr {
   .hero-text h2 {
     font-size: 1rem;
   }
-  .socials{
+  .socials {
     margin-top: 10px;
   }
-  .socials a{
-  font-size: 1.5rem;
+  .socials a {
+    font-size: 1.5rem;
   }
-  .about h1{
+  .about h1 {
     font-size: 2.5rem;
   }
-  .aboutMe p{
+  .aboutMe p {
     text-align: justify;
     font-size: 1rem;
   }
-  .aboutMe button{
+  .aboutMe button {
     margin-left: 0;
-
-  } 
-  .contentSkill{
+  }
+  .contentSkill {
     flex-direction: column;
   }
-  .educationMain{
+  .educationMain {
     flex-direction: column;
   }
-  .contact{
-    padding : 0px;
+  .contact {
+    padding: 0px;
   }
-  .contact .content h2{
+  .contact .content h2 {
     font-size: 2.5rem;
   }
-  .contact .container{
+  .contact .container {
     flex-direction: column;
     width: 100%;
-
   }
-  .contact .container .contactInfo{
+  .contact .container .contactInfo {
     margin-bottom: 40px;
     max-width: 100%;
     width: 80%;
     margin: 0 auto;
   }
-  .contact .container .contactForm{
+  .contact .container .contactForm {
     margin-bottom: 40px;
     max-width: 100%;
     width: 80%;
     margin: 0 auto;
   }
-} 
+}
