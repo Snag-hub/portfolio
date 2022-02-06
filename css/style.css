@@ -498,7 +498,6 @@ body .img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 .footer-container .footer-item {
   max-width: 100%;
@@ -634,6 +633,9 @@ hr {
     width: 80%;
     margin: 0 auto;
   }
+  .footer-container{
+    flex-direction: column;
+  }
 }
 
 /* Mobile Phone */
@@ -707,5 +709,11 @@ hr {
     max-width: 100%;
     width: 80%;
     margin: 0 auto;
+  }
+  .footer-container  .footer-item{
+    flex-direction: column;
+  }
+  .footer-container .footer-item .social-media{
+    margin-bottom: 20px;
   }
 }
