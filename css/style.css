@@ -21,20 +21,6 @@ body {
   margin: 0 auto;
   
 }
-body .img {
-  width: 100%;
-  height: 100%;
-  background: url(../images/html.png);
-  filter: blur(5px);
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  /*mask-image: linear-gradient(    rgba(0, 0, 0, 1),    rgba(0, 0, 0, 0.5),    rgba(0, 0, 0, 0)  );
-  */
-  -webkit-filter: blur(5px);
-}
 
 .navbar {
   background-color: rgba(252, 253, 221, 0.933);
@@ -113,45 +99,38 @@ body .img {
 }
 
 
-
-
-/* Content */
-.hero {
-  width: 100%;
-  height: 100vh;
-  margin-bottom: 15px;
+.container{
+  background-color:black;
 }
-
-.hero-text {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.introText{
+  max-width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.introText h1{
+  font-size: 4rem;
   font-weight: bold;
 }
-.hero-text h1 {
-  background-color: #00bcd4;
-  color: black;
-  padding: 5px 20px;
-  font-size: 3.5rem;
-  border-radius: 40px 0 0 0;
-  -webkit-border-radius: 40px 0 0 0;
-  -moz-border-radius: 40px 0 0 0;
-  -ms-border-radius: 40px 0 0 0;
-  -o-border-radius: 40px 0 0 0;
+.introText h3{
+  font-size: 2rem;
 }
-.hero-text h2 {
-  background-color: black;
+.introText .name{
+  display: none;
+}
+.introText .fullname{
+  display: block;
+  font-size: 3rem;
+}
+#titleChange{
   color: white;
-  padding: 5px 20px;
-  font-size: 2.8rem;
-  border-radius: 0 0 40px 0;
-  -webkit-border-radius: 0 0 40px 0;
-  -moz-border-radius: 0 0 40px 0;
-  -ms-border-radius: 0 0 40px 0;
-  -o-border-radius: 0 0 40px 0;
+  font-size: 3rem;
+  font-weight: bold;
 }
+
 .socials {
   margin-top: 20px;
 }
@@ -556,6 +535,25 @@ hr {
   .contact {
     padding: 50px;
   }
+  .introText h1{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .introText h2{
+    font-size: 2.3rem;
+  }
+  .introText h3{
+    font-size: 1.8rem;
+  }
+  .introText .name{
+    font-size: 1.8rem;
+  }
+  .introText .fullname{
+    font-size: 1.8rem;
+  }
+  .introText h3 #titleChange{
+    font-size: 2.3rem;
+  }
 }
 
 /* Tablets */
@@ -636,6 +634,28 @@ hr {
   .footer-container{
     flex-direction: column;
   }
+  .introText h1{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .introText h2{
+    font-size: 1.6rem;
+  }
+  .introText h3{
+    font-size: 1rem;
+  }
+  .introText .name{
+    display: block;
+    font-size: 1.8rem;
+  }
+  .introText .fullname{
+    display: none;
+    font-size: 1.6rem;
+  }
+  .introText h3 #titleChange{
+    font-size: 1.6rem;
+  }
+  
 }
 
 /* Mobile Phone */
@@ -717,53 +737,21 @@ hr {
     margin-bottom: 20px;
   }
   .introText h1{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   .introText h2{
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
-  .introText h3{
-    font-size: 2rem;
+  .introText .name{
+    display: block;
+    font-size: 1.8rem;
+  }
+  .introText .fullname{
+    display: none;
+  }
+  .introText h3 #titleChange{
+    font-size: 1.6rem;
   }
 }
 
-
-
-
-/* additional design styles*/
-
-
-
-.bg-img{
-  background: black;
-  height: 60vh;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-.introText{
-  max-width: 100%;
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-  color: white;
-  font-weight: bold;
-  margin-top: 5%;
-  margin-bottom: 8%;
-}
-.introText h1{
-  font-size: 4rem;
-  font-weight: bold;
-}
-.introText h2{
-  font-size: 3rem;
-}
-.introText h3{
-  font-size: 2rem;
-}
-#titleChange{
-  color: white;
-  font-size: 3rem;
-  font-weight: bold;
-}

@@ -12,8 +12,6 @@
 </head>
 
 <body>
-  <div class="bg-img"></div>
-  <!-- <div class="img"></div> -->
   <nav class="navbar">
     <ul class='nav-items'>
       <li class="nav-item"><a href="#about">
@@ -33,26 +31,16 @@
   <div class="backToTop">
     <a href="#top"><i class="fas fa-angle-up"></i></a>
   </div>
-  <div class="introText">
-    <h1  id="greetings">Hi</h1>
-    <h2>I'm Syed Nadeem Hussain</h2>
-    <h3>I'm a <span id="titleChange">Web Developer</span> </h3>
+  <div class="container">
+    <div class="introText">
+      <h1  id="greetings">Hi</h1>
+      <h2 class="fullname">I'm Syed Nadeem Hussain,</h2>
+      <h2 class="name">I'm Nadeem</h2>
+      <h3>I'm a <span id="titleChange">Web Developer.</span> </h3>
+    </div>
   </div>
 
-  <!-- <div class="hero">
-    <div class="hero-text">
-      <h1>Syed Nadeem Hussain</h1>
-      <h2>Web Developer</h2>
-      <div class="socials">
-        <a target="_blank" href="https://www.linkedin.com/in/syednadeemhussain/"><i class="fab fa-linkedin"></i></a>
-        <a target="_blank" href="https://www.instagram.com/anonymous.programmer/"><i class="fa fa-instagram"></i></a>
-        <a target="_blank" href="https://github.com/Snag-hub"><i class="fab fa-github"></i></a>
-        <a target="_blank" href="https://twitter.com/therealgeelani"><i class="fa fa-twitter"></i></a>
-        <a target="_blank" href="https://www.youtube.com/channel/UChTEvrP_8_0MjAeTnq3vbzw"><i
-            class="fa fa-youtube"></i></a>
-      </div>
-    </div>
-  </div> -->
+  
   <div class="about" id="about">
     <h1>About</h1>
     <div class="aboutMe">
@@ -292,33 +280,7 @@
         </div>
       </div>
   </footer>
-  <script>
-
-
-    var titles=["Web Developer","Web Designer","WordPress Developer","Front End Developer","Shopify Developer"];
-    var count=0;
-    var title=document.getElementById("titleChange");
-    setInterval(function(){
-      title.innerHTML=titles[count];
-      count++;
-      if(count==titles.length){
-        count=0;
-      }
-    },1000);
-
-    var greetings=["Hello,","नमस्ते,","أسلم ولكم,"];
-    var count1=0;
-    var greeting=document.getElementById("greetings");
-    setInterval(function(){
-      greeting.innerHTML=greetings[count1];
-      count1++;
-      if(count1==greetings.length){
-        count1=0;
-      }
-    },1500);
-
-
-  </script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
