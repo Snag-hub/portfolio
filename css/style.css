@@ -131,7 +131,7 @@ body .img {
   font-weight: bold;
 }
 .hero-text h1 {
-  background-color: rgb(250, 161, 161);
+  background-color: #00bcd4;
   color: black;
   padding: 5px 20px;
   font-size: 3.5rem;
@@ -210,7 +210,7 @@ body .img {
   margin-bottom: 15px;
 }
 .skills h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 40px;
   text-align: center;
@@ -235,7 +235,7 @@ body .img {
 }
 .skill-item i {
   font-size: 2rem;
-  color: rgb(250, 161, 161);
+  color: #00bcd4;
 }
 .skill-item h3 {
   font-size: 1.5rem;
@@ -251,9 +251,9 @@ body .img {
   margin-bottom: 15px;
 }
 .education h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   text-align: center;
   margin-top: 30px;
 }
@@ -288,9 +288,9 @@ body .img {
   margin-bottom: 15px;
 }
 .experience h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   text-align: center;
   margin-top: 30px;
 }
@@ -324,9 +324,9 @@ body .img {
   margin-bottom: 15px;
 }
 .projects h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   text-align: center;
   margin-top: 30px;
 }
@@ -379,7 +379,7 @@ body .img {
   text-align: justify;
 }
 .contact .content h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
@@ -397,6 +397,7 @@ body .img {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 40px;
 }
 .contact .container .contactInfo {
   width: 50%;
@@ -487,6 +488,11 @@ body .img {
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 .footer-container{
@@ -495,25 +501,19 @@ body .img {
   margin: 0 auto;
   height: auto;
   padding: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .footer-container .footer-item {
   max-width: 100%;
   width: 80%;
   margin: 0 auto;
   height: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
+
+  
 }
  .footer-container .footer-item{
-  display: flex; 
-  justify-content: space-around;
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  flex-direction: row;
 }
 .footer-container .footer-item .social-media, 
 .footer-container .footer-item .developer {
@@ -522,7 +522,7 @@ body .img {
 .footer-container .footer-item a{
   color: #00bcd4;
   font-size: 1.2rem;
-  margin: 0 15px;
+  margin: 0 8px;
 
 }
 .footer-container .footer-item .developer span{
@@ -670,7 +670,7 @@ hr {
     margin-top: 10px;
   }
   .socials a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .about h1 {
     font-size: 2.5rem;
@@ -716,4 +716,54 @@ hr {
   .footer-container .footer-item .social-media{
     margin-bottom: 20px;
   }
+  .introText h1{
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .introText h2{
+    font-size: 3rem;
+  }
+  .introText h3{
+    font-size: 2rem;
+  }
+}
+
+
+
+
+/* additional design styles*/
+
+
+
+.bg-img{
+  background: black;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.introText{
+  max-width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+.introText h1{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.introText h2{
+  font-size: 3rem;
+}
+.introText h3{
+  font-size: 2rem;
+}
+#titleChange{
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
 }

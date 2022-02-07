@@ -12,7 +12,8 @@
 </head>
 
 <body>
-  <div class="img"></div>
+  <div class="bg-img"></div>
+  <!-- <div class="img"></div> -->
   <nav class="navbar">
     <ul class='nav-items'>
       <li class="nav-item"><a href="#about">
@@ -32,7 +33,13 @@
   <div class="backToTop">
     <a href="#top"><i class="fas fa-angle-up"></i></a>
   </div>
-  <div class="hero">
+  <div class="introText">
+    <h1  id="greetings">Hi</h1>
+    <h2>I'm Syed Nadeem Hussain</h2>
+    <h3>I'm a <span id="titleChange">Web Developer</span> </h3>
+  </div>
+
+  <!-- <div class="hero">
     <div class="hero-text">
       <h1>Syed Nadeem Hussain</h1>
       <h2>Web Developer</h2>
@@ -45,8 +52,7 @@
             class="fa fa-youtube"></i></a>
       </div>
     </div>
-  </div>
-  <hr>
+  </div> -->
   <div class="about" id="about">
     <h1>About</h1>
     <div class="aboutMe">
@@ -287,15 +293,31 @@
       </div>
   </footer>
   <script>
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    window.onscroll = function () {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
+
+
+    var titles=["Web Developer","Web Designer","WordPress Developer","Front End Developer","Shopify Developer"];
+    var count=0;
+    var title=document.getElementById("titleChange");
+    setInterval(function(){
+      title.innerHTML=titles[count];
+      count++;
+      if(count==titles.length){
+        count=0;
       }
-    }
+    },1000);
+
+    var greetings=["Hello,","नमस्ते,","أسلم ولكم,"];
+    var count1=0;
+    var greeting=document.getElementById("greetings");
+    setInterval(function(){
+      greeting.innerHTML=greetings[count1];
+      count1++;
+      if(count1==greetings.length){
+        count1=0;
+      }
+    },1500);
+
+
   </script>
 </body>
 
