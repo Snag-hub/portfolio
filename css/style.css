@@ -159,7 +159,7 @@ body {
 }
 .aboutMe p {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -167,7 +167,7 @@ body {
   font-weight: bold;
   font-style: italic;
 }
-.aboutMe button {
+.aboutMe a {
   padding: 10px 20px;
   background-color: black;
   color: white;
@@ -175,13 +175,16 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25),
     inset 1px 1px 3px rgba(0, 0, 0, 0.35),
     inset -1px -1px 3px rgba(0, 0, 0, 0.5);
-  margin-top: 20px;
-  margin-left: 45%;
+  margin-left: 42%;
 }
-.aboutMe button{
+.aboutMe a{
+  text-align: center; 
+}
+.aboutMe i{
+  margin-right: 10px;
   text-align: center;
 }
-.aboutMe button:hover {
+.aboutMe a:hover {
   background-color: white;
   color: black;
 }
@@ -604,7 +607,7 @@ hr {
     text-align: justify;
     font-size: 1.2rem;
   }
-  .aboutMe button {
+  .aboutMe a {
     margin-left: 0;
   }
   .contentSkill {
@@ -705,7 +708,7 @@ hr {
     text-align: justify;
     font-size: 1rem;
   }
-  .aboutMe button {
+  .aboutMe a {
     margin-left: 0;
   }
   .contentSkill {
