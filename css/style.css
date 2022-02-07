@@ -98,7 +98,10 @@ body {
 }
 
 .container1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
   background-color: black;
+  height: 30vh;
 }
 .introText {
   max-width: 100%;
