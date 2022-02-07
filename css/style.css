@@ -101,7 +101,7 @@ body {
   padding-top: 20px;
   padding-bottom: 10px;
   background-color: black;
-  height: 30vh;
+  height: 40vh;
 }
 .introText {
   max-width: 100%;
@@ -178,6 +178,9 @@ body {
   margin-top: 20px;
   margin-left: 45%;
 }
+.aboutMe button{
+  text-align: center;
+}
 .aboutMe button:hover {
   background-color: white;
   color: black;
@@ -216,6 +219,9 @@ body {
 .skill-item i {
   font-size: 2rem;
   color: #00bcd4;
+}
+.skill-item progress {
+  margin-left: 15px;
 }
 .skill-item h3 {
   font-size: 1.5rem;
@@ -653,6 +659,9 @@ hr {
   .introText h3 #titleChange {
     font-size: 1.6rem;
   }
+  .container1{
+    height: 30vh;
+  }
 }
 
 /* Mobile Phone */
@@ -749,5 +758,8 @@ hr {
   }
   .introText h3 #titleChange {
     font-size: 1.6rem;
+  }
+  .container1{
+    height: 30vh;
   }
 }

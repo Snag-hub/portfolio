@@ -1,4 +1,4 @@
-var titles=["Front End Developer.","WordPress Developer.","YouTuber.", "Freelancer."];
+var titles=["Web Developer,","Front End Developer.","WordPress Developer.","YouTuber.", "Freelancer."];
 var count=0;
 var title=document.getElementById("titleChange");
 setInterval(function(){
@@ -9,7 +9,7 @@ setInterval(function(){
   }
 },1000);
 
-var greetings=["नमस्ते,","أسلم ولكم,","Hello,"];
+var greetings=["नमस्ते,","Hi,","أسلم ولكم,","Hello,"];
 var count1=0;
 var greeting=document.getElementById("greetings");
 setInterval(function(){
