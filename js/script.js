@@ -7,7 +7,7 @@ setInterval(function(){
   if(count==titles.length){
     count=0;
   }
-},1000);
+},1500);
 
 var greetings=["नमस्ते,","Hi,","أسلم ولكم,","Hello,"];
 var count1=0;
@@ -18,4 +18,4 @@ setInterval(function(){
   if(count1==greetings.length){
     count1=0;
   }
-},1000);
+},1500);
