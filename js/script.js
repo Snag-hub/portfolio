@@ -9,7 +9,7 @@ setInterval(function(){
   }
 },1500);
 
-var greetings=["नमस्ते,","Hi,","أسلم ولكم,","Hello,"];
+var greetings=["नमस्ते,","Hi,","السلام عليكم","Hello,"];
 var count1=0;
 var greeting=document.getElementById("greetings");
 setInterval(function(){
