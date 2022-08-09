@@ -719,6 +719,9 @@ hr {
   .educationMain {
     flex-direction: column;
   }
+  .projectsMain {
+    flex-direction: column;
+  }
   .contact {
     padding: 0px;
   }
