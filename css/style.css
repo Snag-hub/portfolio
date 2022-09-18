@@ -288,7 +288,7 @@ body {
 .experienceMain {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 2.5rem;
 }
 .experience-item h1,h2,h3,h4{
   text-align: center;
